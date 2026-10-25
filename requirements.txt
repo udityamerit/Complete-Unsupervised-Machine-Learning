@@ -1,0 +1,39 @@
+# Complete Unsupervised Machine Learning in Python
+# Core & Numerical Computing
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+
+# Visualization & Plotting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Core Machine Learning & Manifold Projections
+scikit-learn>=1.4.0
+umap-learn>=0.5.5
+
+# Anomaly & Outlier Detection
+pyod>=2.0.0
+
+# Deep Learning (Keras 3 + PyTorch Backend)
+torch>=2.2.0
+torchvision>=0.17.0
+keras>=3.0.0
+
+# Time Series & Signal Clustering
+aeon>=0.8.0
+
+# Recommender Systems
+implicit>=0.7.2
+rectools>=0.5.0
+
+# NLP, Vector Embeddings & Topic Modeling
+sentence-transformers>=2.5.0
+bertopic>=0.16.0
+ollama>=0.2.0
+
+# Notebook Environment & Utilities
+jupyterlab>=4.1.0
+notebook>=7.1.0
+tqdm>=4.66.0
+requests>=2.31.0

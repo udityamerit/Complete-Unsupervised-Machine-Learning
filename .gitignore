@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyTorch & Keras model checkpoints
+*.pt
+*.pth
+*.h5
+*.keras
+
+# Local data cache
+data/
+datasets/
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# macOS / Windows OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE configurations
+.vscode/
+.idea/
