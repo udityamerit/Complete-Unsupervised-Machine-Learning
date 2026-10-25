@@ -264,40 +264,6 @@ This repository integrates best-of-breed open-source packages across the modern 
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## 📁 Repository Structure
-
-```plaintext
-Complete-Unsupervised-Machine-Learning/
-├── assets/
-│   └── banner.png                         # High-resolution project banner
-├── notebooks/
-│   ├── 01_foundations_unsupervised_map/   # Mental models, Scikit-Learn lifecycle
-│   │   └── 01_unsupervised_taxonomy.ipynb
-│   ├── 02_dimensionality_reduction/       # PCA, t-SNE, UMAP, Kernel PCA, SVD (MNIST)
-│   │   ├── 01_linear_decompositions.ipynb
-│   │   └── 02_nonlinear_manifold_learning.ipynb
-│   ├── 03_anomaly_and_fraud_detection/    # 284k Credit Card transactions, iForest, ECOD
-│   │   ├── 01_credit_card_fraud_unsupervised.ipynb
-│   │   └── 02_review_budget_and_eval.ipynb
-│   ├── 04_cluster_analysis_segmentation/  # k-means, HDBSCAN, GMM, Wholesale segmentation
-│   │   ├── 01_clustering_digits.ipynb
-│   │   └── 02_wholesale_customer_segmentation.ipynb
-│   ├── 05_autoencoders_semi_supervised/   # Keras 3 (PyTorch backend) Autoencoders & Pseudo-labels
-│   │   ├── 01_deep_autoencoder_anomaly.ipynb
-│   │   └── 02_semi_supervised_self_training.ipynb
-│   ├── 06_time_series_clustering/         # ECG signals, DTW, k-Shape, aeon library
-│   │   └── 01_ecg_shape_clustering.ipynb
-│   ├── 07_modern_recommender_systems/     # MovieLens 1M: ALS, EASE, SASRec Transformer
-│   │   ├── 01_collaborative_filtering_als.ipynb
-│   │   └── 02_sasrec_pytorch_transformer.ipynb
-│   └── 08_text_clustering_local_llm/      # Sentence-transformers, BERTopic, Ollama local Qwen
-│       └── 01_banking_text_topic_synthesis.ipynb
-├── pyproject.toml                         # Dependency definitions & lock configurations
-├── requirements.txt                       # Standard pip requirements
-└── README.md                              # Main documentation (this file)
-```
 
 ---
 
